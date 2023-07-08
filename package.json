@@ -16,7 +16,8 @@
     "fastify": "^4.15.0",
     "node-cache": "^5.1.2",
     "nodemailer": "^6.7.5",
-    "nodemon": "^3.0.0"
+    "nodemon": "^3.0.0",
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
     "@types/node": "^18.16.19",
