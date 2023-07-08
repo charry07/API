@@ -1,0 +1,25 @@
+{
+  "name": "my-api",
+  "version": "1.0.0",
+  "description": "Aqui tengo todas las rutas para mis Apps",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc --outDir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.15.0",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.1.6"
+  }
+}
