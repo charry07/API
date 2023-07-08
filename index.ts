@@ -15,8 +15,8 @@ fastify.register(cors, {
   allowedHeaders: ['Authorization', 'Origin', 'X-Requested-With', 'Content-Type', 'Accept'],
 });
 
-fastify.get('/', async (request, reply) => {
-  return { hello: 'Welcome To My API for all my Apps!' };
+fastify.get('/', async (req: any, res: any) => {
+  res.send({ hello: 'Welcome To My API for all my Apps!' });
 });
 
 // mapeo las rutas y despues con el fastify.route las lanzo

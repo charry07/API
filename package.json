@@ -4,9 +4,8 @@
   "description": "Aqui tengo todas las rutas para mis Apps",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "dev": "nodemon src/index.ts",
-    "build": "tsc --outDir dist",
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -20,6 +19,6 @@
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
-    "typescript": "^5.1.6"
+    "typescript": "^5.0.3"
   }
 }
