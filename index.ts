@@ -16,6 +16,7 @@ fastify.register(cors, {
 });
 
 fastify.get('/', async (req: any, res: any) => {
+  console.log('helouuuuuuuuuuuuuuuuuuuuu')
   res.send({ hello: 'Welcome To My API for all my Apps!' });
 });
 
@@ -26,6 +27,7 @@ getControllersRoutes.map((route) => {
 
 // Run the server!
 const start = async () => {
+  console.log('process.env.HOST', process.env.HOST)
   try {
     fastify.listen({ host: process.env.HOST || '0.0.0.0', port: process.env.PORT });
     console.log(` ------> Server listening on port => [${process.env.PORT}]`);
