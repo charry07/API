@@ -27,7 +27,7 @@ getControllersRoutes.map((route) => {
 // Run the server!
 const start = async () => {
   try {
-    fastify.listen({ host: '0.0.0.0', port: process.env.PORT });
+    await fastify.listen(process.env.PORT);
     console.log(` ------> Server listening on port => [${process.env.PORT}]`);
   } catch (err) {
     fastify.log.error(err);
