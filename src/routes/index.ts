@@ -1,1 +1,1 @@
-export * from './routes.controllers';
+export * from './routes.myportfolio';

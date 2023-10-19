@@ -19,3 +19,5 @@ npm run build
 yarn dev
 ```
 
+Para utilizarla primero ve a configurar la ruta y el controlador y por ultimo haz el commit al repositorio de git , git se encargara de subir a docker y desplegar el api automaticamente
+
